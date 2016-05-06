@@ -1,0 +1,185 @@
+.nav {
+    background-image: url(http://i37.photobucket.com/albums/e53/stars_and_stripes180/Pinkblack.jpg);
+    width: 910px;
+    height:100px;
+    color: black;
+    text-align: center;
+    padding-top: 0px;
+    margin: auto;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: #E0E0E0;
+    width: 85px;
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    line-height: 2.5;
+    
+}
+.button:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    margin: auto;
+    padding-top: auto;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+    background-image: url(http://wpadminpost.com/uploads/images/perfume2.jpg);
+}
+
+.main {
+    width: 910px;
+    height: 960px;
+    background-color: #E0E0E0;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    
+}
+
+.buttons {
+    width: 900px;
+    height: 65px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+    margin-left: 175px;
+    position: relative;
+    margin: auto;
+    line-height: 2.8;
+    
+}
+.button1 {
+
+    width: 200px;
+    height: 50px;
+    background-color: #E581BA;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.button1:hover {
+    width: 200px;
+    height: 50px;
+    background-color: #C4428C;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.button2 {
+    width: 200px;
+    height: 50px;
+    background-color: #E581BA;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+
+.button2:hover {
+    width: 200px;
+    height: 50px;
+    background-color: #C4428C;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.button3 {
+    width: 200px;
+    height: 50px;
+    background-color: #E581BA;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.button3:hover {
+    width: 200px;
+    height: 50px;
+    background-color: #C4428C;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.button4 {
+    width: 200px;
+    height: 50px;
+    background-color: #E581BA;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.button4:hover {
+    width: 200px;
+    height: 50px;
+    background-color: #C4428C;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+.buttons a {
+    text-decoration: none;
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+.newimage {
+
+   position: absolute;
+   margin:0 auto;
+   left:0;
+   right: 0;
+   opacity: 0.4
+  
+   
+}
+
+.ck{
+   position: relative;
+   margin: 0 auto;
+   margin-right: 10px;
+   top: 40px ;
+  
+}
+
+
+.hk {
+   position: relative;
+   margin-left: 10px;
+   top:40px;
+  
+}
+
+.dg {
+   position: relative;
+   margin-left: 10px;
+   top:48px;
+  
+}
+
+
+.dkny {
+   position: relative;
+   margin-right: 225px;
+   top:48px;
+  
+  
+}
+.whtsnew {
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}

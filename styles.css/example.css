@@ -1,0 +1,131 @@
+html, body, div, span, applet, object, iframe,
+h2, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+body { line-height: 1;}
+ol, ul { list-style: none;}
+blockquote, q { quotes: none;}
+:focus { outline: 0;}
+ins { text-decoration: none;}
+del { text-decoration: line-through;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+
+.nav {
+    background-image: url(http://i37.photobucket.com/albums/e53/stars_and_stripes180/Pinkblack.jpg);
+    width: 1044px;
+    height:100px;
+    color: black;
+    text-align: center;
+    padding-top: 0px;
+    margin: auto;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: #E0E0E0;
+    width: 85px;
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    line-height: 2.5;
+    
+}
+.button:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    margin: auto;
+    padding-top: auto;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+body{
+	background:url(http://wpadminpost.com/uploads/images/perfume2.jpg);
+	font:bold 12px Helvetica,Arial,sans-serif;
+}
+#content{
+	background-color: #E0E0E0;
+	width:1044px;
+	height:1150px;
+	margin:0 auto;
+}
+
+h2{
+    font-size:22px;
+	color:gray;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-left: 0.5px  black;
+}
+#catalog{
+	width:720px;
+	margin:30px 0 0 10px;
+	float:left;
+	height:444px;
+}
+#catalog li{
+	float:left;
+	margin:0px 10px 20px 25px;
+}
+#catalog li img{
+	display:block;
+}
+.price{
+	display:block;
+	float:left;
+	background: gray;
+	width:33px;
+	height:21px;
+	line-height:20px;
+	margin:6px 4px 0 0;
+	color:#fff;
+	font-size:15px;
+	padding:2px 0 0 5px;
+	font-weight:lighter;
+	
+}
+b{
+	float:left;
+	font-size:14px;
+	color:#333;
+	font-family:Tahoma, serif;
+}
+b a{
+	font-size:12px;
+	color:gray;
+	
+	
+}
+#sidebar{
+    float:right;
+	margin-right:25px;
+	width:250px;
+	height: 420px;
+	margin-top: 32px;
+	background: white;
+}
+#sidebar a{
+	font-size:11px;
+	color:#000;
+	margin-left:15px
+}
+
+a.btnCheckout:hover{
+	background-position:87px 0;
+}
+
+
+
+

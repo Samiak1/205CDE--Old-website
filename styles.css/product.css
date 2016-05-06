@@ -1,0 +1,202 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+body { line-height: 1;}
+ol, ul {
+	list-style: none;
+	
+}
+blockquote, q { quotes: none;}
+:focus { outline: 0;}
+ins { text-decoration: none;}
+del { text-decoration: line-through;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+.nav {
+    background-image: url(http://i37.photobucket.com/albums/e53/stars_and_stripes180/Pinkblack.jpg);
+    width: 1044px;
+    height:100px;
+    color: black;
+    text-align: center;
+    padding-top: 0px;
+    margin: auto;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: #E0E0E0;
+    width: 85px;
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    line-height: 2.5;
+    
+}
+.button:hover {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    margin: auto;
+    padding-top: auto;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+    background-image: url(http://wpadminpost.com/uploads/images/perfume2.jpg);
+}
+
+#content{
+	background-color: #E0E0E0;
+	width:1044px;
+	height:1030px;
+    margin: 0 auto;
+}
+
+
+h2{
+	font-size:22px;
+	color:gray;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-left: 0.5px  black;
+}
+
+#catalog{
+	width:770px;
+	margin:30px 0 0 10px;
+	float:left;
+	height:444px;
+}
+
+
+#catalog li{
+	float:left;
+	margin:25px 25px 75px 25px;}
+#cat
+alog li img{
+	display:block;
+}
+.price{
+	display:block;
+	float:left;
+	background-color:gray;
+	width:50px;
+	height:21px;
+	line-height:20px;
+	margin:6px 4px 0 0;
+	color:#fff;
+	font-size:15px;
+	padding:2px 0 0 5px;
+	font-weight:lighter;
+	
+}
+b{
+	float:left;
+	font-size:14px;
+	color:#333;
+	font-family:Tahoma, serif;
+}
+b a{
+	font-size:12px;
+	color:gray;
+	
+}
+#sidebar{
+	float:right;
+	margin-right:30px;
+	width:260px;
+	height: 420px;
+	margin-top: 32px;
+	background: white;
+	
+}
+#sidebar a{
+	font-size:11px;
+	color:#000;
+}
+#sidebar a.simpleCart_checkout,
+.checkoutEmptyLinks a.simpleCart_checkout{
+	display:-moz-inline-box;
+	display:inline-block;
+	width:87px;
+	height:25px;
+    background-image: url('imgs/d-h.png');
+	overflow:hidden;
+	margin-left:125px;
+	vertical-align:middle;
+	text-indent:-9999px;
+	font-size:0;
+}
+a.btnCheckout:hover{
+	background-position:87px 0;
+}
+
+h3{
+	font-size:22px;
+	color:#c23f26;
+	padding-bottom:4px;
+	margin-bottom:9px;
+	border-bottom:1px dashed #d1d4d5;
+}
+
+
+
+
+/*************************
+my cart page
+*************************/
+.alsoContainer{
+	float:left;
+	clear:left;
+	padding:15px 0;
+}
+.alsoInfo,
+.alsoImage,
+.alsoPrice{
+	float:left;
+}
+.alsoImage{
+	margin-right:8px;
+}
+.alsoInfo{
+	margin-right:9px;
+	width:90px;
+}
+#sidebar .alsoContainer a{
+	color:#c23f26;
+}
+.alsoPrice{
+	color:#418932;
+	font-size:13px;
+	padding-top:5px;
+}
+.checkoutEmptyLinks{
+	float:left;
+	clear:left;
+	width:500px;
+	padding-left:221px;
+}
+.checkoutEmptyLinks a{
+	color:#000;
+	font-size:11px;
+}
+
+.simpleCart_empty {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.simpleCart_items {
+	margin-left: 10px;
+	height:360px;
+}
