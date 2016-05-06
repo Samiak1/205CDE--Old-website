@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Mens Purfum</title>
+	<link rel="stylesheet" href="styles.css/example.css" type="text/css" media="screen" charset="utf-8" />
+
+	<script src="javascripts/simpleCart_uncompressed.js" type="text/javascript" charset="utf-8"></script>
+	<!--this is a paypale link,however i dont have one-->
+	<script type="text/javascript">
+	simpleCart = new cart("");
+	</script>
+	
+	<!-- css coding that changes some of the style fetures in this product page.
+	-->
+	<style>
+		.cartHeaders,.totalRow{display:none;}
+		.simpleCart_items{
+			overflow-y:auto;
+			overflow-x:hidden;
+			height:324px;
+			width:243px;
+			margin-bottom:20px;
+		}
+		.itemContainer{
+			clear:both;
+			width:229px;
+			padding:11px 0;
+			font-size:11px;
+		} 
+		
+		.itemImage{
+			float:left;
+			width:60px;
+		}
+		.itemName{
+			float:left;
+			width:85px;
+		}
+		.itemPrice{
+			float:left;
+			width:85px;
+			color: gray;
+		}
+		.itemQuantity{
+			float:left;
+			width:33px;
+			margin-top:-12px;
+			vertical-align:middle;
+		}
+		.itemQuantity input{
+			width:20px;
+			border:1px solid #ccc;
+			padding:3px 2px;
+		}
+		
+		.itemTotal{
+			float:left;
+			color:#c23f26;
+			margin-top:-6px
+		}
+		#sidebar a.simpleCart_checkout,
+.checkoutEmptyLinks a.simpleCart_checkout{
+	display:-moz-inline-box;
+	display:inline-block;
+	width:87px;
+	height:25px;
+    background-image: url('btnCheckout.gif');
+	overflow:hidden;
+	margin-left:125px;
+	vertical-align:middle;
+	text-indent:-9999px;
+	font-size:0;
+}
+a.btnCheckout:hover{
+	background-position:87px 0;
+}
+	</style>
+	
+	
+	
+</head>
+
+<body>
+	
+	<!-- menu bar, each button is in the center and is clickable. This will be the same on everypage.
+>!--> 
+
+<div class="nav">
+  <a href="web.html" class="button" align="center">Home</a>
+  <a href="men.html" class="button" align="center">Men</a>
+  <a href="women.html" class="button" align="center">Women</a>
+   <a href="gift.html" class="button" align="center">Gifts</a>
+  <a href="contact.html" class="button" align="center">Contact</a>
+  <a href="check-out.html" class="button" align="center">Check Out</a>
+  </div>
+		<div id="content">
+			
+			<!--Here is the coding for products. The name, image and price for both item products and the cart products.
+			coding also contains a onclick code this mean the code after this point only shows when the user has clicked.
+			-->
+			<ul id="catalog">
+				
+				<li>
+					<img src="imgs/women/big/w1.png" alt="ggg" />
+					<span class="price">£50</span><b>CK One Summer 2016<br/><a href="myCart.html" onclick="simpleCart.add('name= CK One Summer 2016 ','price=50','image=imgs/men/small/m1.png');return false;"> Add to Cart</a></b>
+				</li>
+				
+			   <li>
+					<img src="imgs/women/big/w2.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w2.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w3.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w3.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w4.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w4.png');return false;"> Add to Cart</a></b>
+				</li>
+			    <li>
+					<img src="imgs/women/big/w5.png" alt="BOSS The Scent EDT Spray" />
+					<span class="price">£50</span><b>BOSS The Scent EDT <br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w5.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w6.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w6.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w7.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w7.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w8.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w8.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w9.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w9.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w10.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w10.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w11.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w11.png');return false;"> Add to Cart</a></b>
+				</li>
+				<li>
+					<img src="imgs/women/big/w12.png" alt="Red Shoe" />
+					<span class="price">£50</span><b>Red Shoe<br/><a href="myCart.html" onclick="simpleCart.add('name=Red Shoe','price=50','image=imgs/women/small/w12.png');return false;"> Add to Cart</a></b>
+				</li>
+			
+				
+				</ul>
+			
+			
+			<!--/ Text for name of cart. also has a div to be able add a background and text-->
+			
+			<div id="sidebar">
+				<h2>Your Cart</h2>
+				
+				
+				<!--Add's Divs has a  class "simpleCart_items" which show your items in the shopping cart area.-->
+				<div class="simpleCart_items" >
+				</div>
+				
+				
+				<!--Here's the Links to Checkout and Empty Cart-->
+				<a href="#" class="simpleCart_empty">empty cart</a>
+				<a href="myCart.html" class="simpleCart_checkout">Checkout</a>
+				
+				
+				
+			</div>
+		
+		</div>
+</body>
+</html>
